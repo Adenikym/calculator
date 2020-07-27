@@ -23,15 +23,19 @@
         
         </div>
             <div class="operate">
+                <div class="four">
             <span class="number"  onclick="document.calc.txt.value +='+'" >+</span>
             <span class="number" onclick="document.calc.txt.value +='-'">-</span>
             <span class="number" onclick="document.calc.txt.value +='/'">/</span>
            
             <span class="number" onclick="document.calc.txt.value +='*'">x</span>
-            <span id="Log"class="number" onclick="document.calc.txt.value+='Math.log()'">log</span>
+        </div>
+        <div class="four2">
+            <span id="Log"class="number" onclick="document.calc.txt.value=Math.log(document.calc.txt.value)">log</span>
             <span class="number" onclick="document.calc.txt.value += '**'">^</span>
             <span class="number" onclick="document.calc.txt.value =''">clear</span>
             <span id=sub class="equals" onclick="document.calc.txt.value= eval(calc.txt.value)">=</span>
+        </div>
         </div>
        
         

@@ -46,13 +46,24 @@ input{
 
 
 .operate{
-    display: flex;
-    justify-content: space-evenly;
-    width: 60%;
-    margin-left: 19%;
-    margin-right: 19%;
+    display: block;
+    
+    
+    width: 100%;
+    
     margin-top: 70px;
 
+}
+
+.four{
+    display: flex;
+    justify-content: center;
+}
+
+.four2{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
 }
 
  span{
@@ -62,7 +73,8 @@ input{
     border-radius: 8px;
     padding: 2px 4px;
     font-family: 'Recursive', sans-serif;
-    width: 60px;
+    width: 50px;
+    margin-right: 2%;
 }
 
 .fnumbers{
@@ -103,4 +115,8 @@ input{
     border: 2px solid #32E0C4;
     color: #32E0C4;
     background-color:#222831 ;
+}
+
+@media only screen and (max-width:400px) {
+
 }
