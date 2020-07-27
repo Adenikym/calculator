@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+}
+
+body{
+    background-color: #222831;
+    font-family: 'Recursive', sans-serif;
+}
+
+header h1{
+font-weight: 900;
+font-size: 3rem;
+font-family: 'Recursive', sans-serif;
+text-align: center;
+margin-bottom: 50px;
+margin-top: 150px;
+}
+
+input{
+    
+    padding: 10px 20px;
+    width:40%;
+    margin-left: 29%;
+    margin-right: 29%;
+    border-radius: 10px 0px 10px 0px;
+    border-bottom: #32E0C4;
+    font-family: 'Recursive', sans-serif;
+    border-bottom: #393E46;
+}
+
+.submit{
+    display: flex;
+    
+}
+
+.submit button{
+    margin-right: 15%;
+}
+
+
+
+.operate{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-left: 19%;
+    margin-right: 19%;
+    margin-top: 70px;
+
+}
+
+ span{
+    border: 2px solid #32E0C4;
+    color: #32E0C4;
+    background-color:#222831 ;
+    border-radius: 8px;
+    padding: 2px 4px;
+    font-family: 'Recursive', sans-serif;
+    width: 60px;
+}
+
+.fnumbers{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-left: 19%;
+    margin-right: 19%;
+    margin-top: 70px;
+
+}
+
+.fnumbers span{
+    border: 2px solid #000;
+    background-color: #32E0C4;
+    width:40px;
+    height: 40px;
+    padding: 2px 4px;
+    border-radius: 5px;
+    color: black;
+}
+
+.snumbers{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-left: 24%;
+    margin-right: 24%;
+    margin-top: 30px;
+
+}
+
+.snumbers span{
+    width:40px;
+    height: 40px;
+    padding: 2px 4px;
+    border-radius: 5px;
+    border: 2px solid #32E0C4;
+    color: #32E0C4;
+    background-color:#222831 ;
+}
